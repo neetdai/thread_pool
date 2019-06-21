@@ -1,0 +1,11 @@
+[package]
+name = "thread_pool"
+version = "0.1.0"
+authors = ["root"]
+edition = "2018"
+
+[dependencies]
+num_cpus = "1.8.0"
+failure = "0.1.2"
+failure_derive = "0.1.2"
+crossbeam-queue = "0.1.2"
